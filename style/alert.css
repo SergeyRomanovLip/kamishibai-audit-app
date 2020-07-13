@@ -1,0 +1,30 @@
+ .alert-body {
+     max-width: 230px;
+     color: whitesmoke;
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     border-radius: 10px;
+     background-color: darkslategray;
+     padding: 15px;
+     margin: 10px;
+ }
+
+ .alert-body-text {}
+
+ .alert-body-button {
+     padding: 5px;
+     padding-top: 10px;
+     margin: 5px;
+     border-radius: 3px;
+     cursor: pointer;
+     background-color: dimgray;
+ }
+
+ .alert-body-button:hover {
+     border-radius: 10px;
+     cursor: pointer;
+ }
